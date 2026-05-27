@@ -139,9 +139,9 @@ body {
 
 .hero-title {
     font-family: 'Algerian', 'Copperplate', serif;
-    font-size: clamp(4rem, 15vw, 9rem);
+    font-size: clamp(3rem, 12vw, 8rem);
     margin: 0;
-    letter-spacing: 15px;
+    letter-spacing: 12px;
     line-height: 0.9;
     color: #fff;
     text-transform: uppercase;
@@ -157,13 +157,13 @@ body {
     from {
         opacity: 0;
         transform: scale(1.1) translateY(20px);
-        letter-spacing: 30px;
+        letter-spacing: 20px;
         filter: blur(10px) drop-shadow(0 0 0px transparent);
     }
     to {
         opacity: 1;
         transform: scale(1) translateY(0);
-        letter-spacing: 15px;
+        letter-spacing: 12px;
         filter: blur(0px) drop-shadow(0 0 30px var(--accent-glow));
     }
 }
@@ -530,7 +530,8 @@ section {
     }
     
     .hero-title {
-        font-size: 4rem;
+        font-size: 2.5rem;
+        letter-spacing: 5px;
     }
     
     .section-title {
